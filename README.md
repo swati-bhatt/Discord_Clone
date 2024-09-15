@@ -12,15 +12,16 @@ It aims to replicate the  front-end user-interface of Discord-Web, including the
 
 
 ##  ☞Tech Stack Used 🖇️
-![Static Badge](https://img.shields.io/badge/HTML-%2300000?style=flat&logo=html5&labelColor=black&color=%23E34F26)
-![Static Badge](https://img.shields.io/badge/React-%23000000?style=flat&logo=react&labelColor=black&color=%2361DAFB)
-![Static Badge](https://img.shields.io/badge/CSS-%23000000?style=flat&logo=css3&logoColor=%231572B6&labelColor=black&color=%231572B6)
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
 
 
 ##  ☞Sneak Peak 🫣
+![App Screenshot](media/demo3.png)
 ![App Screenshot](media/demo1.png)
 ![App Screenshot](media/demo2.png)
-![App Screenshot](media/demo3.png)
 
 ##  ☞Features🧐
 - Responsive Design: Optimized for desktop, tablet, and mobile devices.
