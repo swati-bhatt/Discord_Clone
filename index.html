@@ -15,7 +15,7 @@
     <main class="w-full h-full m-0 p-0 overflow-x-hidden ">
 
        <!-- nav bar -->
-        <section class="w-full h-16 bg-[#404EED] font-ggSans">
+        <section class="w-full h-16 bg-[#404EED] font-['ggSans']">
             <nav class="flex justify-between text-white max-w-[1200px] mx-auto h-[72px] items-center px-7 xl:px-0">
                 <!-- logo -->
                 <div>
@@ -31,6 +31,7 @@
                     <a href="#" class="capitalize hover:underline">blog</a>
                     <a href="#" class="capitalize hover:underline">careers</a>
                 </div>
+
                 <!-- discord button-->
                 <div class="hidden lg:block">
                     <a href="#">
@@ -153,8 +154,78 @@
 
     <!-- footer section -->
 
-    <footer>
-        
+    <footer class="w-full bg-[#2c2f33] py-5 pt-16">
+        <div class="w-[95%] lg:w-[70%] mx-auto flex flex-col">
+            <!-- section 1 -->
+            <div class="flex flex-col md:flex-row pb-8">
+                <div class="w-[100%] md:w-[30%] ">
+                    <h1 class=" text-[#404EED] font-[600] lg:font-[700] text-center md:text-left font-['GintoNord'] text-[25px] leading-[30px] md:text-[28px] md:leading-[30px] lg:text-[35px] lg:leading-[40px] mx-auto">IMAGINE A PLACE...</h1>
+                    <div class="mx-auto text-center md:text-start ">
+                        <i class="fa fa-twitter text-white pr-2 py-3 text-3xl hover:scale-125 transition-all duration-150"></i>
+                        <i class="fa fa-instagram text-white px-2 py-3 text-3xl hover:scale-125 transition-all duration-150"></i>
+                        <i class="fa fa-facebook text-white px-2 py-3 text-3xl hover:scale-125 transition-all duration-150"></i>
+                        <i class="fa fa-youtube-play text-white pl-2 py-3 text-3xl hover:scale-125 transition-all duration-150"></i>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 mx-8">
+                    <ul class="mb-8">
+                        <p class="font-['ggSans'] text-[#404EED] font-[500] text-lg pb-1">Product</p>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Download</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Nitro</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Status</li>
+                    </ul>
+                    <ul class="mb-8">
+                        <p class="font-['ggSans'] text-[#404EED] font-[500] text-lg pb-1">Company</p>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">About</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Jobs</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Branding</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Newsroom</li>
+                    </ul>
+                    <ul class="mb-0">
+                        <p class="font-['ggSans'] text-[#404EED] font-[500] text-lg pb-1">Resources</p>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Colleges</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Support</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Safety</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Blog</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Feedback</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Developers</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">StreamKit</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Creators</li>
+                    </ul>
+                    <ul class="mb-0">
+                        <p class="font-['ggSans'] text-[#404EED] font-[500] text-lg pb-1">Policies</p>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Terms</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Privacy</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Cookie Settings</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Guidelines</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Acknowledgements</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Licenses</li>
+                        <li class="font-['ggSans'] text-white font-[500] text-base pb-1">Moderation</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- section 2 -->
+            <div class="flex flex-row border-t-2 border-[#404EED] justify-between pt-4">
+                <div>
+                    <img src="media/logo.svg" alt="">
+                </div>
+                 <div class="hidden lg:block">
+                    <a href="#">
+                    <button class="bg-[#404EED] rounded-full text-white font-ggSans font-[600] py-2 px-4 text-[15px] hover:text-[#2c2f33]">Sign Up</button>
+                    </a>
+                </div>
+                 
+                 <div class="block lg:hidden">
+                    <a href="#">
+                    <button class="bg-[#404EED] rounded-full text-white hover:text-[#2c2f33] font-ggSans font-[600] py-2 px-4 text-[10px]">Download</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
     </footer>
 
 
