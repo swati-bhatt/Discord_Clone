@@ -5,20 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML & Tailwind CSS Starter Pack</title>
-
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Discord| Your Place to Talk and Hang Out</title>
     <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
-    <main class="flex justify-center gap-4 flex-col min-h-screen">
-        <h1 class="text-3xl text-center font-bold underline">
-            HTML & Tailwind CSS Starter Pack
-        </h1>
-        <p class="text-center text-xl">
-            This is a starter pack for HTML & Tailwind CSS projects.
-        </p>
-        <img src="https://bit.ly/3wsmzTy" alt="meme" class="mx-auto">
+    <main class="w-full h-full m-0 p-0 overflow-x-hidden ">
+
+       <!-- nav bar -->
+        <section class="w-full h-16 bg-[#404EED] font-ggSans">
+            <nav class="flex justify-between text-white max-w-[1200px] mx-auto h-[72px] items-center px-7 xl:px-0">
+                <!-- logo -->
+                <div>
+                    <img src="media/logo.svg" alt="">
+                </div>
+                <!-- nav options -->
+                <div class="hidden lg:flex gap-5 text-[16px] font-ggSans font-[600]">
+                    <a href="#" class="capitalize hover:underline">download</a>
+                    <a href="#" class="capitalize hover:underline">nitro</a>
+                    <a href="#" class="capitalize hover:underline">discover</a>
+                    <a href="#" class="capitalize hover:underline">safety</a>
+                    <a href="#" class="capitalize hover:underline">support</a>
+                    <a href="#" class="capitalize hover:underline">blog</a>
+                    <a href="#" class="capitalize hover:underline">careers</a>
+                </div>
+                <!-- discord button-->
+                <div class="hidden lg:block">
+                    <a href="#">
+                    <button class="bg-white rounded-full text-[#2c2f33] font-ggSans font-[600] py-2 px-4 text-[15px]">Open Discord</button>
+                    </a>
+                </div>
+
+                <!-- hamburger icon small scree -->
+                 <div class="block lg:hidden">
+                    <i class="fa fa-bars text-[23px]"></i>
+                 </div>
+            </nav>
+        </section>
+
+        <!-- hero section  -->
+         <section class="w-full bg-[#404EED]  font-ggSans relative -mt-1 lg:py-20 pb-7 ">
+            <!-- destop view  -->
+            <img src="media/Image0.svg" alt="" class="hidden xl:block z-10 absolute bottom-[4rem] scale-[140%]">
+            <img src="media/Image1.svg" alt="" class="hidden xl:block z-10 absolute -bottom-[2.25rem] -right-[8%] scale-[80%]">
+            <img src="media/Image2.svg" alt="" class="hidden xl:block z-10 absolute -bottom-[2.25rem] -left-[10%] scale-[80%]">
+            <!-- tab/ipad view  -->
+            <img src="media/Image1.svg" alt="" class="hidden md:block xl:hidden z-10 absolute -bottom-[2.25rem] -right-[20%] scale-[80%]">
+            <!-- phone view  -->
+            <img src="media/Image0.svg" alt="" class="block md:hidden z-10 absolute bottom-[0.7rem] scale-[130%]">
+
+            <!-- main flex  -->
+            <div class="flex flex-col text-white md:w-[55%] xl:px-0 px-7 lg:w-[45%] lg:mx-auto text-center gap-3 md:gap-5 pt-[30px] md:pt-[50px]">
+                <!-- content -->
+                <h1 class="font-[600] lg:font-[800] text-left lg:text-center font-['GintoNord'] z-20  text-[25px] leading-[30px] md:text-[28px] md:leading-[30px] lg:text-[35px] lg:leading-[40px] ">IMAGINE A PLACE...</h1>
+                <p class="font-[400] text-xs md:text-base text-left lg:text-center z-20 lg:pl-5">...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together.
+                     A place that makes it easy to talk every day and hang out more often.
+                </p>
+
+                <!-- buttons large screen-->
+                <div class="hidden xl:flex flex-row justify-center items-center gap-10 z-20">
+                    <a href="#">
+                        <button class="bg-white rounded-full text-black font-ggSans font-[600] py-2 px-4 text-[15px] hover:text-[#404EED]">
+                            <i class="fa fa-download"></i> Download for Mac
+                            
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="bg-black rounded-full text-white font-ggSans font-[600] py-2 px-4 text-[15px] hover:text-[#404EED]">Open Discord in your browserr</button>
+                    </a>
+                </div>
+
+                <!-- button small screen -->
+                <div class="flex xl:hidden flex-row justify-center items-center gap-10 z-20">
+                    <a href="#">
+                        <button class="bg-white rounded-full text-[#2c2f33] font-ggSans font-[600] py-2 px-4 text-[15px] hover:text-[#404EED]">
+                            <i class="fa fa-download"></i> Download from Google Play   
+                        </button>
+                </div> 
+            </div>
+         </section>
+
+         
     </main>
 </body>
 
